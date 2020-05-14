@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Food Gallery</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
@@ -17,17 +19,16 @@
         <span class="header__title">회원가입</span>
       </div>
     </header>
-    <nav class="navigater">
-      <span class="navigater__title">전체</span>
-    </nav>
     <section class="section">
-      <table>
-        <tr>
-          <th>구분</th>
-          <th>제목</th>
-          <th>작성일</th>
-        </tr>
-      </table>
+      <nav class="navigater">
+        <span class="navigater__title">전체</span>
+      </nav>
+      <content class="content">
+        <ul class="food-list">
+          <li class="food-list__item"></li>
+        </ul>
+      </content>
     </section>
+    <footer class="footer"></footer>
   </body>
 </html>
