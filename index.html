@@ -6,26 +6,50 @@
     <title>Food Gallery</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <div class="header__header-column">
-        <span class="header__title">홈</span>
-        <span class="header__title">메뉴 등록</span>
-        <span class="header__title">분류 관리</span>
+        <a class="header__title" href="#">홈</a>
+        <a class="header__title" href="#">메뉴 등록</a>
+        <a class="header__title" href="#">분류 관리</a>
       </div>
       <div class="header__header-column">
-        <span class="header__title">로그인</span>
-        <span class="header__title">회원가입</span>
+        <a class="header__title" href="#">로그인</a>
+        <a class="header__title" href="#">회원가입</a>
       </div>
     </header>
     <section class="section">
-      <nav class="navigater">
-        <span class="navigater__title">전체</span>
-      </nav>
       <content class="content">
         <ul class="food-list">
-          <li class="food-list__item"></li>
+          <li class="food-list__item">
+            <img class="food-list__img" src="images/paster.jpg" />
+            <span class="food-list__name">파스타</span>
+          </li>
+          <li class="food-list__item">
+            <img class="food-list__img" src="images/kimchisoup.png" />
+            <span class="food-list__name">김치찌개</span>
+          </li>
+          <li class="food-list__item">
+            <img class="food-list__img" src="images/hamburger.jpg" />
+            <span class="food-list__name">햄버거</span>
+          </li>
+          <li class="food-list__item">
+            <img class="food-list__img" src="images/bread.jpg" />
+            <span class="food-list__name">호밀빵</span>
+          </li>
+          <li class="food-list__item">
+            <img class="food-list__img" src="images/stake.jpg" />
+            <span class="food-list__name">스테이크</span>
+          </li>
+          <li class="food-list__item">
+            <img class="food-list__img" src="images/fish.jpg" />
+            <span class="food-list__name">생성조림</span>
+          </li>
         </ul>
       </content>
     </section>
